@@ -37,7 +37,7 @@ export default async function handler(req, res) {
           {
             type: 'web_search_20250305',
             name: 'web_search',
-            max_uses: mode === 'deep' ? 12 : 4
+            max_uses: mode === 'deep' ? 7 : 4
           }
         ],
         messages: [
