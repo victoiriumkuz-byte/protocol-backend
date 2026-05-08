@@ -1,8 +1,0 @@
-{
-  "name": "protocol-analyzer-backend",
-  "version": "1.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vercel dev"
-  }
-}
