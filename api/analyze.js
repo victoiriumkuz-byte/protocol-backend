@@ -32,7 +32,7 @@ export default async function handler(req, res) {
       },
       body: JSON.stringify({
         model: 'claude-sonnet-4-5',
-        max_tokens: mode === 'deep' ? 4000 : 1500,
+        max_tokens: mode === 'deep' ? 8000 : 2000,
         tools: [
           {
             type: 'web_search_20250305',
